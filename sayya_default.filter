@@ -469,14 +469,14 @@ Hide # Trash - Low Base
 # Section: Cleanup (dimming and shrinking) after A1N
 
 # Dim normal and magic items above level 15 that aren't hidden but aren't special
-Show # Trash - Dimmed
+Hide # Trash - Dimmed
     ItemLevel > 14
     Rarity = Normal
     SetTextColor 150 150 150 180 # Dim white
     SetBackgroundColor 0 0 0 127 # Dim background
     SetFontSize 25
 
-Show # Trash - Dimmed
+Hide # Trash - Dimmed
     ItemLevel > 14
     Rarity = Magic
     SetTextColor 95 95 179 180 # Dim blue
