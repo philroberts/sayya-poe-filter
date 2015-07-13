@@ -62,6 +62,9 @@ Show # Flasks - Quality
     Class "Flask"
     SetBorderColor 88 0 179 # Utility/Hybrid/Quality flask
 
+Hide # Hiding flasks now we don't care about them
+    Class "Flask"
+
 Show # Flasks - Hybrid - Hallowed
     BaseType "Hallowed Hybrid Flask"
     ItemLevel < 68
