@@ -58,7 +58,7 @@ Show # Flasks - Utility
     SetBorderColor 88 0 179 # Utility/Hybrid/Quality flask
 
 Show # Flasks - Quality
-    Quality >= 10
+    Quality > 0
     Class "Flask"
     SetBorderColor 88 0 179 # Utility/Hybrid/Quality flask
 
