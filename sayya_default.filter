@@ -278,7 +278,7 @@ Show # Gems - Active
 # Add a dark green border to normal items of desired chance bases
 Show # Bases - Chance
     Rarity = Normal
-    BaseType "Occultist's" "Judgement Staff" "Agate Amulet" "Imperial Bow"
+    BaseType "Occultist's" "Judgement Staff" "Agate Amulet" "Imperial Bow" "Prophecy Wand"
     SetBorderColor 0 73 0 # Chance bases
 
 # Add a teal border to ilvl 77+ items of desired bases
