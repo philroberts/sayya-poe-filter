@@ -334,10 +334,6 @@ Show # Maraketh Weapons - Merciless
     BaseType "Sai"
     SetFontSize 25
 
-Show # All Magic Items (Warbands)
-    Rarity = Magic
-    SetFontSize 18
-	
 # Section: Cleanup (hiding)
 
 # Hide white and magic items with a substantial gap between drop and item level (REMOVE FROM HERE UNTIL NEXT COMMENT if you want nothing hidden)
