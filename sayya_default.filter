@@ -147,7 +147,13 @@ Show # Flasks - Life - Divine+ - (over 70)
 
 # Section: Special Items
 
-# Add a red border and sound to special items: fishing rods, jewels (AlertSound7)
+# Add a red border and sound to special items: fishing rods, jewels (AlertSound7) (No sound for magic jewels)
+Show
+    Class "Jewel"
+    Rarity = Magic
+    SetBorderColor 150 0 0 # Special drops
+    SetFontSize 42
+
 Show # Valuables - Fishing Rods, Jewels, Div Cards
     Class "Fishing Rod" "Jewel" "Divination Card"
     SetBorderColor 150 0 0 # Special drops
