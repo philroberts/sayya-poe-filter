@@ -295,8 +295,9 @@ Show # Rares - Other
 
 # Always show Maraketh weapons (capped by level), accessories (reduced size), hammers (white or magic 12%), and sacrificial garbs
 Show # Jewelry
-    Rarity <= Magic
-    Class "Amulet" "Ring" "Belt"
+    ItemLevel >= 75
+    Rarity = Normal
+    Class "Amulet" "Ring"
     SetFontSize 25
 
 Show # Chisel Hammers
