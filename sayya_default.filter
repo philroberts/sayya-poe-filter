@@ -312,25 +312,6 @@ Show # Chisel Hammers
 Show # Valuables - Sacrificial Garb
     BaseType "Sacrificial Garb"
 
-Show # Maraketh Weapons - Normal
-    ItemLevel < 50
-    BaseType "Reflex Bow" "Crescent Staff" "Curved Blade" "Morning Star" "Dagger Axe" "Smallsword" "Horned Sceptre" "Etched Hatchet" "Hook Sword" "Wyrm Mace" "Prong Dagger" "Pagan Wand" "Double Claw"
-    SetFontSize 25
-
-Show # Maraketh Weapons - Cruel
-    ItemLevel < 70
-    BaseType "Steelwood Bow" "Moon Staff" "Lithe Blade" "Solar Maul" "Talon Axe" "Courtesan Sword" "Stag Sceptre" "Engraved Hatchet" "Grappler" "Dragon Mace" "Trisula" "Heathen Wand" "Twin Claw"
-    SetFontSize 25
-
-Show # Maraketh Weapons - Merciless
-    BaseType "Maraketh Bow" "Eclipse Staff" "Exquisite Blade" "Coronal Maul" "Fleshripper" "Dragoon Sword" "Sambar Sceptre" "Runic Hatchet" "Tiger Hook" "Behemoth Mace" "Profane Wand" "Gemini Claw"
-    SetFontSize 25
-
-Show # Maraketh Weapons - Merciless
-    Class "Daggers"
-    BaseType "Sai"
-    SetFontSize 25
-
 # Section: Cleanup (hiding)
 
 # Hide white and magic items with a substantial gap between drop and item level (REMOVE FROM HERE UNTIL NEXT COMMENT if you want nothing hidden)
