@@ -52,16 +52,6 @@ Show # Valuables - Uniques
 
 # Section: Flasks
 
-# Add a border to flasks that are near the current level or have 15%+ quality
-Show # Flasks - Utility
-    Class "Utility Flask"
-    SetBorderColor 88 0 179 # Utility/Hybrid/Quality flask
-
-Show # Flasks - Quality
-    Quality > 0
-    Class "Flask"
-    SetBorderColor 88 0 179 # Utility/Hybrid/Quality flask
-
 Hide # Hiding flasks now we don't care about them
     Class "Flask"
 
